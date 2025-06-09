@@ -9,6 +9,7 @@ import { Footer } from './components/Footer';
 
 import './styles/theme.css';
 import './styles/global.css';
+
 import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
 
 export function App() {
