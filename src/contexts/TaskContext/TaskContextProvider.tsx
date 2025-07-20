@@ -10,7 +10,7 @@ export function TaskContentProvider({ children }: TaskContentProviderProps) {
   const [state, setState] = useState(initialTaskState);
 
   useEffect(() => {
-    console.log(state.activeTask);
+    console.log(state);
   }, [state]);
 
   return (
